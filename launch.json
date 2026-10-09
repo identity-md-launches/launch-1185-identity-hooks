@@ -1,0 +1,24 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "IHOOKSToken",
+    "name": "identity hooks",
+    "symbol": "IHOOKS",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {
+    "poolBps": 8000,
+    "initialMarketCapWei": "2640000000000000000000",
+    "remainderTo": "0x419c3cee9568cfa394d7cf39d59ae49c968e7405"
+  },
+  "notes": "IHOOKSToken (src/IHOOKSToken.sol) is a fixed-supply OpenZeppelin ERC-20 named \"identity hooks\" with symbol IHOOKS and 18 decimals. Its constructor takes no arguments and mints the whole supply of 1,000,000,000 IHOOKS (1000000000000000000000000000 minor units) once to msg.sender, the factory. There is no owner, minter, pause, blocklist, fee or burn: every transfer moves exactly the amount requested, so the distributor, seed and swap flows arrive whole and the supply can never grow. No application contracts are deployed."
+}
